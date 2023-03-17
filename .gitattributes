@@ -1,4 +1,5 @@
 # Start of script
+# Note: Hidden files (like this one) do not adhere to the DDDDD... theme of this project.
 # .gitattributes
 # This file defines what languages can show up in the GitHub linguist menu (the menu that tells you what percentage each language is using up on this project.
 # Some non-programming languages must be included manually with this file. Want to create your own? Do something similar to what is done here, and name the file
@@ -6,16 +7,16 @@
 # and nothing else, no characters before, no characters after
 # Start of linguist script
 # HTML (HyperText Markup Language) document
-*.htm linguist-detectable=true
+*.htm linguist-detectable=false
 *.htm linguist-documentation=false
 *.htm linguist-language=HTML
-*.html linguist-detectable=true
+*.html linguist-detectable=false
 *.html linguist-documentation=false
 *.html linguist-language=HTML
-*.mhtm linguist-detectable=true
+*.mhtm linguist-detectable=false
 *.mhtm linguist-documentation=false
 *.mhtm linguist-language=HTML
-*.mhtml linguist-detectable=true
+*.mhtml linguist-detectable=false
 *.mhtml linguist-documentation=false
 *.mhtml linguist-language=HTML
 *.xhtm linguist-detectable=true
@@ -32,6 +33,10 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
+# D source file
+*.d linguist-detectable=true
+*.d linguist-documentation=false
+*.d linguist-language=D
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -161,10 +166,13 @@
 *.gif linguist-detectable=false
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2023, Friday, March 17th at 3:16 pm PST)
+# Line count (including blank lines and compiler line): 179
+
 # End of script
